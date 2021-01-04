@@ -1,0 +1,2 @@
+webpackJsonp([10],{Em7k:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var c={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n  bolckchain\n")])},staticRenderFns:[]};var a=t("VU/8")({name:"bolckchain",components:{},data:function(){return{}},props:{},computed:{},methods:{},watch:{},created:function(){}},c,!1,function(e){t("lIja")},"data-v-19458b4e",null);n.default=a.exports},lIja:function(e,n){}});
+//# sourceMappingURL=10.546c3013cb3b60d61777.js.map
