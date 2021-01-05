@@ -16,14 +16,14 @@
   </el-form-item>
    <el-form-item label="贷款时间" prop='creditTime'>
     <el-input v-model="formInline.creditTime" placeholder="贷款时间"></el-input>
-  </el-form-item> 
+  </el-form-item>
   <el-form-item>
     <el-button type="primary" @click="onSubmit">查询</el-button>
     <el-button type="primary" @click="reSet('formInline')">重置</el-button>
   </el-form-item>
 </el-form>
 
-    
+
 
 
   <el-table
@@ -91,14 +91,12 @@
     <el-dialog :title="detailTitle" :visible.sync="dialogAddgsVisible"  @close="closeDialogAddgsVisible">
         <el-tabs v-model="tab" @tab-click="tabClick" >
             <el-tab-pane label="身份认证" name="first">
-
                 <div>
                     <el-form :inline="true" class="demo-form-inline">
                     <div>
                      <el-row :gutter="20">
                         <el-col :span="10"><img :src="yzgnImg1" /> </el-col>
                         <el-col :span="10"><img :src="fan"></el-col>
-
                     </el-row>
                     </div>
                     <div>
@@ -127,7 +125,7 @@
         </el-tabs>
     </el-dialog>
 </div>
-   
+
 </template>
 
   </div>
@@ -141,14 +139,14 @@ export default {
   name: "creditBusiness",
   components: {},
   data() {
-    return { 
+    return {
         tableData3: [{
           id :'1',
           custName:'张三',
           enterPriseName:'企业1',
           phone:123456789,
           getMoney:590000,
-      
+
           creditMoney: 600000,
           busiMoney: 10000,
           address: '湖南省长沙市星沙3区1411号',
@@ -162,7 +160,7 @@ export default {
           creditMoney: 600000,
           busiMoney: 10000,
           address: '湖南省长沙市星沙3区1411号',
-          creditTime:'2020-10-22 10:22:30' 
+          creditTime:'2020-10-22 10:22:30'
         }, {
           id :'3',
           custName:'张三',
@@ -253,5 +251,5 @@ export default {
 <style lang="less" scoped>
 .el-table th {
     text-align: center;
-} 
+}
 </style>

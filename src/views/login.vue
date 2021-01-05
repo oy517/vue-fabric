@@ -5,12 +5,12 @@
       <div class="info">
         <div class="title">
           <img src="@/assets/logo-blue.png">
-          <span>量同衡金融可信数据管理系统</span>
+          <span style="font-size:22px">量同衡金融可信数据管理系统</span>
         </div>
         <div class="detail">
-          <span>
+     <!--     <span>
             量同衡金融可信数据管理系统
-          </span>
+          </span>-->
         </div>
       </div>
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-position="left" label-width="0px" class="demo-ruleForm login-container">
@@ -33,11 +33,11 @@
         </el-form-item>
       </el-form>
     </div>
-    <div class="login-footer">
+<!--    <div class="login-footer">
       <a href="https://github.com/calebman/vue-DBM">
         点此进入代码仓库
       </a>
-    </div>
+    </div>-->
   </div>
 </template>
 

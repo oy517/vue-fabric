@@ -31,7 +31,7 @@ after_script:
 # 指定分支，只有指定的分支提交时才会运行脚本
 branches:
   only:
-    - master
+    - test
 
 # Note: you should set Environment Variables here or 'Settings' on travis-ci.org
 env:
